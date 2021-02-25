@@ -13,6 +13,13 @@ def sort_array_desc(array)
 end 
 
 #Question #3
+
+def sort_array_char_count(array)
+  array.sort do |a, b|
+    a.length <=> b.length
+  end
+end
+
 #Question #4
 #Question #5
 #Question #6

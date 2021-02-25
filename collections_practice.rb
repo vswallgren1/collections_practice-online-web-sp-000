@@ -40,6 +40,29 @@ def kesha_maker(array)
     item[2] = "$"
   end
 end
+
 #Question #7
+
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+end
+
 #Question #8
+
+def sum_array(array)
+  array.inject(:+)
+end
+
 #Question #9
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+    end
+end 

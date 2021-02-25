@@ -34,6 +34,12 @@ def reverse_array(array)
 end
 
 #Question #6
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
 #Question #7
 #Question #8
 #Question #9
